@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.naverloginexample"
     android:versionCode="1"
     android:versionName="1.0">
@@ -31,6 +32,7 @@
       <activity
         android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity"
         android:screenOrientation="portrait"
+        tools:replace="android:theme"
         android:theme="@android:style/Theme.Translucent.NoTitleBar" />
       <activity
         android:name="com.nhn.android.naverlogin.ui.OAuthLoginInAppBrowserActivity"
